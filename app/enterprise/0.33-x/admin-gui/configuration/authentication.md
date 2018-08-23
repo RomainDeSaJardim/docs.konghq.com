@@ -72,9 +72,9 @@ HTTP/1.1 201 Created
 
 Save this `"key": "62eb165c070a41d5c1b58d9d3d725ca1"` for use later. Note that this key is separate and distinct from the admin's RBAC token. 
 
-When the Admin was created earlier it also created an RBAC user. This user now
+When the Admin was created earlier it also created an RBAC user. This RBAC user now
 needs to have the RBAC Super Admin role added to it. You might need to create
-an RBAC user to associate to this admin. To add the Super Admin, see 
+an RBAC user to associate to this Admin. To add the Super Admin, see 
 "[Bootstrapping the first RBAC user - the Super Admin](/enterprise/{{page.kong_version}}/rbac/examples/#bootstrapping-the-first-rbac-user-the-super-admin)". 
 
 ```
